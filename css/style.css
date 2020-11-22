@@ -38,7 +38,7 @@
   margin-top: 33px;
   text-align: center;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -153,8 +153,74 @@ a {
 .photo1 {
   text-align: center; 
   margin-top: 40px;
+  margin-bottom: 105px;
+}
+
+.text {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1445px;
+  height: 506px;
+  background: #F6F6F6;  
+  margin-bottom: 91px; 
+}
+.about_me {
+  font-family: Conv_Gilroy-ExtraBold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-top: 120px;
+  margin-bottom: 36px;
+}
+.ux_ui {
+  font-family: Conv_Gilroy-Light;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 107px;
+}
+
+.all_skills {
+  width: 1445px;
+  margin: 0 auto;
+}
+.text_skills {
+  text-align: center;
+  font-family: Conv_Gilroy-ExtraBold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 69px;
+
+}
+.work {
+  text-align: center;
+  font-family: Conv_Gilroy-Light;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  font-weight: 600;
+  margin-bottom: 84px;
+
+}
+.img_skills {
+  display: flex;
+  justify-content: space-around;
+}
+.ps {
+}
+.ai {
+}
+.ae {
+}
+.figma {
 }
 
 
 
-
+ 
