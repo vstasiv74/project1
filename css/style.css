@@ -210,15 +210,79 @@ a {
 }
 .img_skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
+  /* height: 615px; */
 }
 .ps {
+  margin-right: 45px;
+  margin-bottom: 110px;
 }
 .ai {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 110px;
 }
 .ae {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 110px;
 }
 .figma {
+  margin-left: 45px;
+  margin-bottom: 110px;
+}
+
+.portfolio_img {
+  width: 1445px;
+  height: 2253px;
+  margin: 0 auto;
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 113px;
+}
+
+.portfolio_text {
+  font-family: Conv_Gilroy-ExtraBold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 52px;
+}
+.portfolio_link {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-family: Conv_Gilroy-Light;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  font-weight: 600;
+}
+.reebok_link {
+  margin-top: 45px;
+  margin-bottom: 100px;
+  font-family: Conv_Gilroy-Light;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  font-weight: 600;
+} 
+.braun_link {
+  margin-top: 46px;
+  font-family: Conv_Gilroy-Light;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  font-weight: 600;
 }
 
 
