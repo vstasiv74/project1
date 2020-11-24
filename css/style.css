@@ -28,133 +28,83 @@
   src: local("☺"), url("../fonts/Gilroy-Light.woff") format("woff"),
     url("../fonts/Gilroy-Light.ttf") format("truetype"),
     url("../fonts/Gilroy-Light.svg") format("svg");
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 
+/* navbar @ photo */
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .navbar {
-  width: 69%;
-  height: 100%;
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
   margin-top: 33px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 24px;
 }
-
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a {
+.navbar_link {
   text-decoration: none;
   color: #828282;
+  font-family: Conv_Gilroy-ExtraBold;
+  font-size: 18px;
 }
 
-.home a {
+.navbar_link:first-child {
   color: #070707;
-}
-
-.home {
-  font-family: Conv_Gilroy-ExtraBold;
-  font-size: 18px;
-  display: block;
-  color: #070707;
-  text-align: center;
-  margin-left: 9px;
-  
-}
-.about {
-  font-family: Conv_Gilroy-ExtraBold;
-  font-size: 18px;
-  display: block;
-  color: #828282;
-  margin-left: 155px;
-}
-
-.skills {
-  font-family: Conv_Gilroy-ExtraBold;
-  font-size: 18px;
-  display: block;
-  color: #828282;
-  margin-left: 156px;
-}
-
-.portfolio {
-  font-family: Conv_Gilroy-ExtraBold;
-  font-size: 18px;
-  display: block;
-  color: #828282;
-  margin-left: 157px;
-}
-
-.contacts {
-  font-family: Conv_Gilroy-ExtraBold;
-  font-size: 18px;
-  display: block;
-  color: #828282;
-  margin-left: 156px;
-
-}
-
-.vector {
-  text-align: center; 
-  margin-top: 24px;
 }
 
 .mainhead {
-  width: 980px;
-  /* background-color: skyblue; */
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 25px;
+   margin-top: 25px;
+   width: 940px;
+   display: flex;
+   justify-content: space-between;
 }
-
 .denis {
   font-family: Conv_Gilroy-ExtraBold;
-  font-size: 47.3392px;
+  font-size: 47px;
   line-height: 59px;
   color: #070707;
-  /* background-color: springgreen; */
-  margin-left: 20px;
 }
-
-
 .minsk {
   font-family: Conv_Gilroy-Light;
   font-size: 18px;
   line-height: 22px;
   color: #070707;
-  /* background-color: steelblue; */
-  margin-right: 24px;
-  margin-bottom: 13px;
+  align-self: flex-end;
 }
-
 .eng {
   height: 20px;
   font-family: Conv_Gilroy-ExtraBold; 
   font-size: 16px;
   line-height: 20px;
-  color: #828282;
   transform: rotate(-90deg);
-  /* background-color: tan; */
   align-self: center;
-  margin-top: 25px;
+  margin-top: 55px;
   position: relative;
-  left: 5px;
+  left: 25px;
+  
+}
+
+.eng a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.eng .eng_link {
+  color: #070707;
 }
 
 .photo1 {
-  text-align: center; 
   margin-top: 40px;
   margin-bottom: 105px;
 }
+
+/* about me */
 
 .text {
   margin: 0 auto;
@@ -185,6 +135,8 @@ a {
   margin-bottom: 107px;
 }
 
+/* skills block */
+
 .all_skills {
   width: 1445px;
   margin: 0 auto;
@@ -212,7 +164,6 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* height: 615px; */
 }
 .ps {
   margin-right: 45px;
@@ -232,6 +183,8 @@ a {
   margin-left: 45px;
   margin-bottom: 110px;
 }
+
+/* portfolio */
 
 .portfolio_img {
   width: 1445px;
@@ -285,6 +238,50 @@ a {
   font-weight: 600;
 }
 
+/* contacts */
+
+.contacts_footer {
+  width: 1445px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts_text {
+  margin-top: 114px;
+  font-family: Conv_Gilroy-ExtraBold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 20px;
+}
+.welcome {
+  font-family: Conv_Gilroy-Light;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 30px;
+}
+.icons {
+  width: 342px;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+  margin-bottom: 45px;
+}
+.footer {
+  font-family: Conv_Gilroy-Light;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 123px;
+}
 
 
  
